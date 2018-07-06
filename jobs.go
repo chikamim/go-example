@@ -27,7 +27,7 @@ var jobs = sdk.Jobs{
 		Handler:     CreateDeployment,
 		Title:       "Create K8S Deployment",
 		Description: "Creates a new Kubernetes deployment for the new test environment.",
-		Priority:    30,
+		Priority:    25,
 	},
 	sdk.Job{
 		Handler:     CreateService,
